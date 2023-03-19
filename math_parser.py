@@ -530,30 +530,6 @@ class Parser():
     def abs(self, num1: int):
         return math.fabs(num1)
 
-    def cos(self, num1: int):
-        return math.cos(num1)
-
-    def sin(self, num1: int):
-        return math.sin(num1)
-
-    def tan(self, num1: int):
-        return math.tan(num1)
-
-    def acos(self, num1: int):
-        return math.acos(num1)
-
-    def asin(self, num1: int):
-        return math.asin(num1)
-
-    def atan(self, num1: int):
-        return math.asin(num1)
-
-    def degrees(self, num1: int):
-        return math.degrees(num1)
-
-    def radians(self, num1: int):
-        return math.radians(num1)
-
     def ln(self, num1: int):
         return math.log(num1)
 
