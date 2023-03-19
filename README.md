@@ -13,7 +13,7 @@ print(parser.parse("2*4")
 ```
 The parser can understand most basic math operations as well as some mathematical constants.
 It can also work with both positive and negative numbers, as well as understand operator precedence.
-The parser ignores whitespaces so they are optional in the string expression, passed as an argument to the parser function.
+The parser ignores whitespaces so they are optional in the string expression which is passed as an argument to the parser function.
 
 Here are examples of different expressions it could parse.
 
