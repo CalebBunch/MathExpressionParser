@@ -15,7 +15,7 @@ The parser can understand most basic math operations as well as some mathematica
 It can also work with both positive and negative numbers, as well as understand operator precedence.
 The parser ignores whitespaces so they are optional in the string expression, passed as an argument to the parser function.
 
-Here are example of different expressions it could parse.
+Here are examples of different expressions it could parse.
 
 ```python
 from math_parser import Parser
