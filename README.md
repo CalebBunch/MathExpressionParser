@@ -1,6 +1,7 @@
 # MathExpressionParser
 
-This program is designed to parse a math expression represented as a string. \ \
+This program is designed to parse a math expression represented as a string.
+
 The program should be used like this:
 
 ```python
@@ -10,10 +11,11 @@ parser = Parser()
 
 print(parser.parse("2*4")
 ```
-The parser can understand most basic math operations as well as some mathematical constants. \
-It can also work with both positive and negative numbers, as well as understand operator precedence. \ 
-The parser ignores whitespaces so they are optional in the string expression, passed as an argument to the parser function. \ \
-Here are example of different expressions it could parse. \ \
+The parser can understand most basic math operations as well as some mathematical constants.
+It can also work with both positive and negative numbers, as well as understand operator precedence.
+The parser ignores whitespaces so they are optional in the string expression, passed as an argument to the parser function.
+
+Here are example of different expressions it could parse.
 
 ```python
 from math_parser import Parser
