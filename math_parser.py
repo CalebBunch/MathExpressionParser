@@ -505,8 +505,6 @@ class Parser():
     def mod(self, num1: int, num2: int):
         return num1 % num2
 
-    # advanced operations
-
     def sqrt(self, num1: int):
         return math.sqrt(num1)
 
